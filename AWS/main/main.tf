@@ -5,3 +5,7 @@ module "app-server" {
 module "iam-user" {
   source = "../module/iam"
 }
+
+module "rds" {
+  source = "../module/rds"
+}
